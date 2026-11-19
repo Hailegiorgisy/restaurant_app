@@ -1,0 +1,6 @@
+{
+  "name": "Restaurant calculator",
+  "description": "Streamlined Ethiopian restaurant VAT and service charge calculator designed specifically for restaurant owners and waiters, exclusively in Amharic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
