@@ -23,7 +23,10 @@ abstract class AppDatabase : RoomDatabase() {
                     context.applicationContext,
                     AppDatabase::class.java,
                     "ethio_restaurant_vat_db"
-                ).fallbackToDestructiveMigration().build()
+                )
+                    // Add explicit Migration(1, 2) objects here when bumping the schema version
+                    // instead of using fallbackToDestructiveMigration().
+                    .build()
                 INSTANCE = instance
                 instance
             }

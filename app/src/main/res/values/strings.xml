@@ -1,3 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Restaurant calculator</string>
+    <string name="app_name">Restaurant Calculator</string>
+    <string name="app_subtitle">Ethiopian VAT &amp; Service Charge POS</string>
+    <string name="tab_waiter">Waiter POS</string>
+    <string name="tab_waiters_sales">Collections</string>
+    <string name="tab_weekly_sales">Weekly Sales</string>
+    <string name="tab_owner">Owner &amp; Tax</string>
+    <string name="service_charge">Service Charge</string>
+    <string name="vat_15">VAT (15%)</string>
+    <string name="total_bill">Total Bill</string>
+    <string name="clear">Clear</string>
+    <string name="copy_receipt">Copy Receipt</string>
+    <string name="share">Share</string>
+    <string name="close">Close</string>
 </resources>
